@@ -1,0 +1,95 @@
+<html>
+<head>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body>
+<div class="header" align="center">
+<div class="card-panel teal lighten-2" style="height:200px; font-size:100px; ">Rajasthan Vendor Form</div>
+</div>
+<div class="row">
+  <form class="col s12" form action="/handle_data" method="post">
+  <div class="input-field col s6">
+ First name:<br>
+ <input type="text" name="firstname"><br>
+ </div>
+ <div class="input-field col s6">
+ Last name:<br>
+ <input type="text" name="lastname"></div>
+ <br>Enter your shop address:<br>
+ <input type="text" name="Shop Address">
+ <h1>Enter the products you want to sell</h1>
+ </div>
+ <p>
+ <h3>Jewellery:<br></h3>
+ <input type="checkbox" name="Jewellery" id="Kundan Style"/ value="Kundan Style"><label for="Kundan Style">Kundan Style<br></label>
+ <input type="checkbox" name="Jewellery" id="Thewa Style" value="Thewa Style" /> <label for="Thewa Style">Thewa Style<br></label>
+ <input type="checkbox" name="Jewellery" id="Mewekari Style"  value="Mewekari Style"> <label for="Mewekari Style">Mewekari Style<br></label>
+  </p><p>
+ <h3>Miniature Paintings:<br></h3>
+ <input type="checkbox" name="Paintings" id="Phad Paintings" value="Phad Paintings"/> <label for="Phad Paintings">Phad Paintings<br></label>
+ <input type="checkbox" name="Paintings" id="Bundi Paintings"value="Bundi Paintings"/> <label for="Bundi Paintings">Bundi Paintings<br></label>
+ <input type="checkbox" name="Paintings" id="Mewar Painting style"value="Mewar Painting style"/> <label for="Mewar Painting style">Mewar Painting style<br></label>
+ <input type="checkbox" name="Paintings" id="Bikaner Paintings"value="Bikaner Paintings"/><label for="Bikaner Paintings">Bikaner Paintings<br></label>
+ <input type="checkbox" name="Paintings" id="Kishangarh Paintings"value="Kishangarh Paintings"/><label for="Kishangarh Paintings">Kishangarh Paintings<br></label>
+ <input type="checkbox" name="Paintings" id="Marwar Paintings"value="Marwar Paintings"/> <label for="Marwar Paintings">Marwar Paintings<br></label>
+   </p><p>
+ <h3>Carpets:<br></h3>
+ <input type="checkbox" name="Carpets" id="Dhuries" value="Dhuries"/><label for="Dhuries">Dhuries<br></label>
+ <input type="checkbox" name="Carpets" id="Namda Rug"value="Namda Rug"/><label for="Namda Rug">Namda Rug<br></label>
+   </p><p>
+ <h3>MetalWorks:<br></h3>
+ <input type="checkbox" name="MetalWorks" id="Rajasthan Metal Tray" value="Rajasthan Metal Tray"/> <label for="Rajasthan Metal Tray">Rajasthan Metal Tray<br></label>
+ <input type="checkbox" name="MetalWorks" id="Rajasthan Ivory Carvings" value="Rajasthan Ivory Carvings"/ ><label for="Rajasthan Ivory Carvings">Rajasthan Ivory Carvings<br></label>
+ <input type="checkbox" name="MetalWorks" id="Stone Crafts" value="Stone Crafts"/><label for="Stone Crafts"> Stone Crafts<br></label>
+ <input type="checkbox" name="MetalWorks" id="Jharokhas" value="Jharokhas"/> <label for="Jharokhas">Jharokhas<br></label>
+ </p>  <p>
+ <h3>Pottery:<br></h3>
+ <input type="checkbox" name="Pottery" id="Blue Pottery" value="Blue Pottery"/><label for="Blue Pottery"> Blue Pottery<br></label>
+ <input type="checkbox" name="Pottery" id="Terracotta Pottery" value="Terracotta Pottery"/><label for="Terracotta Pottery">Terracotta Pottery<br></label>
+ <input type="checkbox" name="Puppets" id="RajasthaniPuppets" value="Rajasthani Puppets"/> <label for="RajasthaniPuppets">Rajasthani Puppets<br></label>
+   </p><p>
+ <h3>Fabric Works:<br></h3>
+ <input type="checkbox" name="Fabric Works" id="Bandhani" value = "Bandhani"/> <label for="Bandhani">Bandhani<br></label>
+ <input type="checkbox" name="Fabric Works" id="Lehariya" value="Lehariya"/> <label for="Lehariya">Lehariya<br></label>
+ <input type="checkbox" name="Fabric Works" id="Mothda" value = "Mothda" /> <label for="Mothda">Mothda<br></label>
+ <input type="checkbox" name="Fabric Works" id="Bagru Print" value = "Bagru Print"/><label for="Bagru Print">Bagru Print<br></label>
+ <input type="checkbox" name="Fabric Works" id="Dalu Print" value = "Dalu Print"/><label for="Dalu Print"> Dalu Print<br></label>
+ <input type="checkbox" name="Fabric Works" id="Azrakh Print" value = "Azrakh Print"/> <label for="Azrakh Print">Azrakh Print<br></label>
+ <input type="checkbox" name="Fabric Works" id="Rabari Embroidery" value = "Rabari Embroidery"/> <label for="Rabari Embroidery">Rabari Embroidery<br></label>
+ <input type="checkbox" name="Fabric Works" id="Gota Embroidery" value = "Gota Embroidery"/><label for="Gota Embroidery"> Gota Embroidery<br></label>
+ <input type="checkbox" name="Fabric Works" id="Salma Works" value = "Salma Works"/> <label for="Salma Works">Salma Works<br></label>
+ <input type="checkbox" name="Fabric Works" id="Sajani Works" value = "Sajani Works"/> <label for="Sajani Works">Sajani Works<br></label>
+ <input type="checkbox" name="Fabric Works" id="Kota Daria" value = "Kota Daria"/> <label for="Kota Daria">Kota Daria<br></label>
+   </p><p>
+ <h3>Leather Wear:<br></h3>
+ <input type="checkbox" name="Leather Wear" id="Kopi" value = "Kopi"/> <label for="Kopi">Kopi<br></label>
+ <input type="checkbox" name="Leather Wear" id="Juttis" value = "Juttis"/> <label for="Juttis">Juttis<br></label>
+ <input type="checkbox" name="Leather Wear" id="Mojaris" value = "Mojaris"/> <label for="Mojaris">Mojaris<br></label>
+ <input type="checkbox" name="Leather Wear" id="Red Leather Long Boot" value = "Red Leather Long Boot"/><label for="Red Leather Long Boot">Red Leather Long Boot<br></label>
+   </p>
+  <p>
+ <h3>Wooden Articles:<br></h3>
+ <input type="checkbox" name="Wooden Articles" id="Barmeri Style Wood" value = "Barmeri Style Wood"/> <label for="Barmeri Style Wood">Barmeri Style Wood<br></label>
+ <input type="checkbox" name="Wooden Articles" id="Patra Style Wood" value = "Patra Style Wood" /> <label for="Patra Style Wood">Patra Style Wood<br></label>
+ <input type="checkbox" name="Wooden Articles" id="Shekhwati Furniture" value = "Shekhwati Furniture" /> <label for="Shekhwati Furniture">Shekhwati Furniture<br></label>
+ <input type="checkbox" name="Wooden Articles" id="Camel Saddle Stools" value = "Camel Saddle Stools" /> <label for="Camel Saddle Stools">Camel Saddle Stools<br></label>
+ </p>
+ <div class="file-field input-field">
+    <div class="btn">
+      <span>File</span>
+      <input type="file" multiple>
+    </div>
+    <div class="file-path-wrapper">
+      <input class="file-path validate" type="text" placeholder="Upload the required documents">
+    </div>
+  </div>
+  <button class="btn waves-effect waves-light" type="submit" name="action" >
+    Submit
+</button>
+</form>
+</div>
+</html>

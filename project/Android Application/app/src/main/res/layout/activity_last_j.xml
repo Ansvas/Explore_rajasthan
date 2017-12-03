@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practice_ner_project.LastJActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/appbar_famoustoy">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbar_famoustoy"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appbar_famoustoy">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meenakari Style"
+                android:textColor="#303f9f"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:scaleType="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/meenakari"
+                android:id="@+id/navigation_image4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textColor="#303f9f"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="The jewelry highlights depressions similar to a popular design or animal figurines or images of gods and goddess. The idea behind this is to give the appearance of a picture. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Originated in:"
+                android:textColor="#303f9f"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="Kundan flourished under royal patronage during the Mughal era. Over the years, the Kundan jewellery of the courts was successfully copied in silver in Rajasthan."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prices in Rajasthan:"
+                android:textColor="#303f9f"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="Rs.3000 – 100000/-"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Market:"
+                android:textColor="#303f9f"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="Bapu Bazaar, Saraogi Mansion Basement and Johri Bazaar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vendor Detail:"
+                android:textColor="#303f9f"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:text="Raj Kumar - Johri Bazaar"/>
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<html>
+<head>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body>
+<div class="header" align="center">
+<div class="card-panel teal lighten-2" style="height:200px; font-size:100px; ">Rajasthan Vendor Form</div>
+</div>
+<div class="row">
+  <form class="col s12" form action="/handle_data" method="post">
+  <div class="input-field col s6">
+ First name:<br>
+ <input type="text" name="firstname"><br>
+ </div>
+ <div class="input-field col s6">
+ Last name:<br>
+ <input type="text" name="lastname"></div>
+ <br>Enter your no:<br>
+ <input type="text" name="Shop Address">
+ <h1>Which City are you located in:</h1>
+ </div>
+ <p>
+ <h3>Cities:<br></h3>
+ <input type="radio" name="places" id="Jaipur"/ value="Jaipur"><label for="Jaipur">Jaipur<br></label>
+ <input type="radio" name="places" id="Udaipur" value="Udaipur" /> <label for="Udaipur">Udaipur<br></label>
+ <input type="radio" name="places" id="Ajmer"  value="Ajmer"> <label for="Ajmer">Ajmer<br></label>
+  </p><p>
+  </div>
+  <button class="btn waves-effect waves-light" type="submit" name="action" >
+    Submit
+</button>
+</form>
+</div>
+</html>

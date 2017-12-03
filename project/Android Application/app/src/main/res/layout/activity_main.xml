@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practice_ner_project.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/l1"
+        android:background="@drawable/second">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#303f9f"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="PLACES TO VISIT"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/placebutton"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#303f9f"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="FAMOUS PRODUCTS"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/famous_button"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#303f9f"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="VIEW NEARBY"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/viewbutton"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

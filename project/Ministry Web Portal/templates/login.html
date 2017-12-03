@@ -1,0 +1,59 @@
+<html>
+<head>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<style>
+    div {
+      text-align: center;
+    }
+    b {
+      color: grey;
+      text-align: left;
+    }
+  img
+  {
+    width: 30%;
+    height: 30%;
+  }
+.space
+{
+  height: 10%;
+}
+</style>
+</head>
+<body>
+<div class="card-panel teal lighten-2">
+<div class="card-panel red accent-1">
+  <div class="space">
+    <h1>Rajasthan Ministry</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="container">
+      <div class="card-panel grey lighten-5">
+<form action="#">
+
+    <img class="responsive-img" src="http://images.jdmagicbox.com/comp/jaipur/46/0141p141std35546/catalogue/rajasthan-home-minister-c-scheme-jaipur-ministry-2ajdwp5.jpg">
+
+<div class="container">
+   <label><b><font size = "4"> Username</font></b></label>
+   <input type="text" placeholder="Enter your PRN " name="uname" required>
+
+   <label><b><font size = "4">Password</font></b></label>
+   <input type="password" placeholder="Enter your Password" name="psw" required>
+
+   <button class="waves-effect waves-light btn" type="submit">Login</button>
+ </div>
+ <a href="{{ url_for('quiz_answers') }}">VendorForm</a>
+ <a href="#">Tourist Guide Form</a>
+ </div>
+</div>
+</div>
+</form>
+</body>
+</html>
